@@ -1,5 +1,5 @@
 #include <stdio.h>
-//Diamond pattern
+//Diamond loop pattern
 int main()
 {
     int n, i, j, k;

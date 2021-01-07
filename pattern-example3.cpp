@@ -1,5 +1,5 @@
 #include <stdio.h>
-//triangle pattern
+//triangle loop pattern
 int main()
 {
     int n, i, j;

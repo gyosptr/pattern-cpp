@@ -1,19 +1,15 @@
 #include <stdio.h>
-//pyramid loop pattern
+//half pyramid loop pattern
 int main()
 {
     int n, i, j;
     printf("Enter the number of rows: ");
     scanf("%d", &n);
-    for (i = 1; i <= n; i++)
+    for (i = n; i >= 1; i--)
     {
-        for (j = n; j > i; j--)
-        {
-            printf(" ");
-        }
         for (j = 1; j <= i; j++)
         {
-            printf("%d ", j);
+            printf("%d", j);
         }
         printf("\n");
     }
